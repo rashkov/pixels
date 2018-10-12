@@ -8,6 +8,9 @@ import (
 	"os"
 )
 
+// @TODO: Add a keepalive heartbeat using time.Tick in a goroutine
+//        Add a type field to ws frames -- "string" or "json"
+
 // Fun with messages
 // messages := make(chan string)
 // go func() { messages <- "ping" }()

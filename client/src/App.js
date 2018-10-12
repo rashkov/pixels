@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -60,7 +59,7 @@ class App extends Component {
       ctx.lineTo(x, 512);
       ctx.stroke()
     }
-    for(let y=0; y<canvas_width; y+=quad_width){
+    for(let y=0; y<canvas_height; y+=quad_width){
       ctx.moveTo(0,y);
       ctx.lineTo(512, y);
       ctx.stroke()
